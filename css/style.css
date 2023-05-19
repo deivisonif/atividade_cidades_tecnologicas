@@ -30,6 +30,7 @@ nav {
 
 .title_menu {
   font-weight: bold;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
@@ -149,5 +150,16 @@ input[type="submit"] {
 @media (max-width: 850px) {
   .container_paragrafo {
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 400px) {
+  .menu_list {
+    justify-content: center;
+  }
+  .img_main {
+    max-width: 300px;
+    width: max-content;
+    border-radius: 5px;
   }
 }
